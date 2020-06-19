@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: ABCD
-pragma solidity ^0.5.16;
+pragma solidity ^0.6.0;
 
 contract VerifySignature {
     /* 1. Unlock MetaMask account
     ethereum.enable()
     */
 
-    /* 2. hash = "0x72266357e8744c702e8a6e80f52172fb503d4b65920efa82c5464e5dcab8a59c"
+    /* 2. hash = ""
 web3.personal.sign(hash,web3.eth.defaultAccount,console.log)
 metamask popup asking for signature
 signed messged consoled
